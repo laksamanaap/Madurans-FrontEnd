@@ -1,6 +1,7 @@
 import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import heroImage from "../../assets/Images/Arosbaya-3.jpeg";
+import kerapanSapi1 from "../../assets/Images/karapan-sapi-1.jpg";
 
 export default function Home() {
   return (
@@ -173,7 +174,7 @@ export default function Home() {
                           <img
                             class="img-fluid"
                             alt="100%x280"
-                            src="assets/Images/karapan-sapi-1.jpg"
+                            src={kerapanSapi1}
                           />
                           <div class="trending-card-body">
                             <span class="trending-card-title">
@@ -224,7 +225,7 @@ export default function Home() {
                           <img
                             class="img-fluid"
                             alt="100%x280"
-                            src="assets/Images/karapan-sapi-1.jpg"
+                            src={kerapanSapi1}
                           />
                           <div class="trending-card-body">
                             <span class="trending-card-title">
@@ -275,7 +276,7 @@ export default function Home() {
                           <img
                             class="img-fluid"
                             alt="100%x280"
-                            src="assets/Images/karapan-sapi-1.jpg"
+                            src={kerapanSapi1}
                           />
                           <div class="trending-card-body">
                             <span class="trending-card-title">
@@ -331,7 +332,7 @@ export default function Home() {
                           <img
                             class="img-fluid"
                             alt="100%x280"
-                            src="assets/Images/karapan-sapi-1.jpg"
+                            src={kerapanSapi1}
                           />
                           <div class="trending-card-body">
                             <span class="trending-card-title">
@@ -382,7 +383,7 @@ export default function Home() {
                           <img
                             class="img-fluid"
                             alt="100%x280"
-                            src="assets/Images/karapan-sapi-1.jpg"
+                            src={kerapanSapi1}
                           />
                           <div class="trending-card-body">
                             <span class="trending-card-title">
@@ -433,7 +434,7 @@ export default function Home() {
                           <img
                             class="img-fluid"
                             alt="100%x280"
-                            src="assets/Images/karapan-sapi-1.jpg"
+                            src={kerapanSapi1}
                           />
                           <div class="trending-card-body">
                             <span class="trending-card-title">
@@ -507,11 +508,7 @@ export default function Home() {
               <div class="col-lg-6 col-md-12 mb-3">
                 <div class="trending-card-wrapper">
                   <div class="trending-card">
-                    <img
-                      class="img-fluid"
-                      alt="100%x280"
-                      src="assets/Images/karapan-sapi-1.jpg"
-                    />
+                    <img class="img-fluid" alt="100%x280" src={kerapanSapi1} />
                     <div class="trending-card-body">
                       <span class="trending-card-title huge">
                         Temukan Keindahan Tersembunyi di Gili Iyang Madura
@@ -546,7 +543,7 @@ export default function Home() {
                     <img
                       class="img-fluid top-destination"
                       alt="100%x280"
-                      src="assets/Images/karapan-sapi-1.jpg"
+                      src={kerapanSapi1}
                     />
                     <div class="trending-card-body">
                       <span class="trending-card-title">
@@ -583,7 +580,7 @@ export default function Home() {
                     <img
                       class="img-fluid top-destination"
                       alt="100%x280"
-                      src="assets/Images/karapan-sapi-1.jpg"
+                      src={kerapanSapi1}
                     />
                     <div class="trending-card-body">
                       <span class="trending-card-title">

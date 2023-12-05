@@ -191,6 +191,7 @@ h1 {
 
 #detail-pages .detail-plan-description {
     max-width: 480px;
+    text-align: left;
     font-size: 14px;
     color: var(--secondary-color);
     font-family: Poppins-light;
@@ -367,7 +368,7 @@ h1 {
 
 #guest-review .review-card {
     background-color: var(--white);
-    /* box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.10); */
+    box-shadow: unset !important;
     padding: 20px 24px;
     border-radius: 24px;
 }

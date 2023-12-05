@@ -1,13 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
+  
 
 function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container container-homepage">
-          <span href="" class="navbar-brand">
+          <Link to={"/"} class="navbar-brand">
             Maduran<span class="navbar-brand active">s.</span>
-          </span>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"

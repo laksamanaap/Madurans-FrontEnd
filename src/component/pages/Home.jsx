@@ -2,6 +2,7 @@ import * as React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import heroImage from "../../assets/Images/Arosbaya-3.jpeg";
 import kerapanSapi1 from "../../assets/Images/karapan-sapi-1.jpg";
+import ReviewUser from "../../assets/Images/review-user.png";
 
 export default function Home() {
   return (
@@ -184,7 +185,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                          <a class="trending-card-link" href="/detail.html">
+                          <a class="trending-card-link" href="/detail">
                             See More
                           </a>
                           <div class="d-flex align-items-center gap-2 trending-card-star">
@@ -235,7 +236,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                          <a class="trending-card-link" href="/detail.html">
+                          <a class="trending-card-link" href="/detail">
                             See More
                           </a>
                           <div class="d-flex align-items-center gap-2 trending-card-star">
@@ -286,7 +287,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                          <a class="trending-card-link" href="/detail.html">
+                          <a class="trending-card-link" href="/detail">
                             See More
                           </a>
                           <div class="d-flex align-items-center gap-2 trending-card-star">
@@ -342,7 +343,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                          <a class="trending-card-link" href="/detail.html">
+                          <a class="trending-card-link" href="/detail">
                             See More
                           </a>
                           <div class="d-flex align-items-center gap-2 trending-card-star">
@@ -393,7 +394,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                          <a class="trending-card-link" href="/detail.html">
+                          <a class="trending-card-link" href="/detail">
                             See More
                           </a>
                           <div class="d-flex align-items-center gap-2 trending-card-star">
@@ -444,7 +445,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div class="d-flex align-items-center justify-content-between">
-                          <a class="trending-card-link" href="/detail.html">
+                          <a class="trending-card-link" href="/detail">
                             See More
                           </a>
                           <div class="d-flex align-items-center gap-2 trending-card-star">
@@ -708,10 +709,7 @@ export default function Home() {
                       <span class="review-user-title">Brookly John</span>
                       <span class="review-user-subtitle">CEO Of Tanij</span>
                     </div>
-                    <img
-                      src="assets/Images/review-user.png"
-                      class="review-user-img"
-                    />
+                    <img src={ReviewUser} class="review-user-img" />
                   </div>
                 </div>
               </div>
@@ -791,10 +789,7 @@ export default function Home() {
                       <span class="review-user-title">Brookly John</span>
                       <span class="review-user-subtitle">CEO Of Tanij</span>
                     </div>
-                    <img
-                      src="assets/Images/review-user.png"
-                      class="review-user-img"
-                    />
+                    <img src={ReviewUser} class="review-user-img" />
                   </div>
                 </div>
               </div>

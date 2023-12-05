@@ -14,7 +14,7 @@ function App() {
         <main className="container mx-auto">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/detail/:id_destinasi" element={<Detail />} />
+            <Route path="/detail" element={<Detail />} />
           </Routes>
         </main>
         <Footer />
